@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup as BS
 from datetime import datetime
 
-bot = telebot.TeleBot('1951909005:AAEEL5lhgjkut-Y8RlziE4pZBsoM7NWsISI', parse_mode=None)
+bot = telebot.TeleBot('А вот я прям и выложил его токен', parse_mode=None)
 
 @bot.message_handler(commands=['start'])
 def intro(message):
